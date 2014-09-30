@@ -1,11 +1,11 @@
 package co.edu.eafit.safebuy.util;
 
-import junit.framework.Assert;
+import org.junit.Assert;
 
 import org.junit.Test;
 
 
-public class SomeTestClass {
+public class SomeClassTest {
 
 	@Test
 	public void myTest(){
