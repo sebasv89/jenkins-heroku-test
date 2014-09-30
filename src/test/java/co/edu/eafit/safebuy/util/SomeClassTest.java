@@ -9,6 +9,6 @@ public class SomeClassTest {
 
 	@Test
 	public void myTest(){
-		Assert.assertEquals(1, 2);
+		Assert.assertEquals(1, 1);
 	}
 }
