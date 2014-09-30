@@ -1,0 +1,8 @@
+ <script id="safe_buyer_template" type="text/x-handlebars-template">
+ <ul class="unstyled-list" style="text-align:center;">
+{{#each this}}
+<li><label>{{attributes.name}}</label> <a href="#editSafeBuyer/{{attributes.id}}">edit</a></li>
+{{/each}}
+</ul>
+<a href="#addSafeBuyer"> create new buyer<a>
+</script>

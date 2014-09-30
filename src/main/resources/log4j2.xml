@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration status="WARN">
+  <appenders>
+    <Console name="Console" target="SYSTEM_OUT">
+      <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+    </Console>
+	<Jdbc name="databaseAppender" tableName="logging.switch_logs">
+      <DataSource jndiName="java:comp/env/jdbc/phoenixDataSource" />
+      <Column name="date" isEventTimestamp="true" />
+      <Column name="level" pattern="%level" isUnicode="false" />
+      <Column name="logger" pattern="%logger" isUnicode="false" />
+      <Column name="message" pattern="%message" isUnicode="false" />
+      <Column name="exception" pattern="%ex{full}" isUnicode="false"/> 
+    </Jdbc>
+  </appenders>
+  <loggers>
+    <root level="info">
+      <appender-ref ref="databaseAppender"/>
+      <appender-ref ref="Console"/>
+
+    </root>
+  </loggers>
+</configuration>
