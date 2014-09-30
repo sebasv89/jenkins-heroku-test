@@ -61,7 +61,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		    <div class="contact_desc">
 		        <div class="wrap">
 			         <div class="contact-form">
-				  	   <h2>REGISTRO DE USUARIOS CON CAMBIO EN CLASE EAFIT</h2>
+				  	   <h2>REGISTRO DE USUARIOS DESDE MCDONALDS</h2>
 					     <div class="left_form">
 					    	<div>
 						    	<span>
