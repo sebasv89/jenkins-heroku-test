@@ -11,4 +11,11 @@ public class SomeClassTest {
 	public void myTest(){
 		Assert.assertEquals(1, 1);
 	}
+	
+
+	@Test
+	public void myTest2(){
+		Assert.assertEquals(1, 2);
+	}
+
 }
