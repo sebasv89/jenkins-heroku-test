@@ -61,7 +61,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		    <div class="contact_desc">
 		        <div class="wrap">
 			         <div class="contact-form">
-				  	   <h2>REGISTRO DE USUARIOS EN EAFIT</h2>
+				  	   <h2>REGISTRO DE USUARIOS EN EAFIT PEDIDO EXPLIC&Iacute;TAMENTE POR JOSE MIGUEL VEGA</h2>
 					     <div class="left_form">
 					    	<div>
 						    	<span>
